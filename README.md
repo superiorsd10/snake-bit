@@ -1,7 +1,7 @@
-# Confess
-> Confess anything that weighs heavily on your heart and mind without shame, because you are anonymous.
+# Snake Bit
+> Get bit by the nostalgia bug with Snake Bit! Choose from three modes, Overflow, Underflow, and Red Bit, and slither your way to high scores and endless fun.
 
-Download [_here_](https://play.google.com/store/apps/details?id=com.sachindapkara.confess).<br/><br/> <!-- If you have the project hosted somewhere, include the link here. -->
+Download [_here_](https://play.google.com/store/apps/details?id=com.sachindapkara.snakebit).<br/><br/> <!-- If you have the project hosted somewhere, include the link here. -->
 ![Play Store](https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=google-play&logoColor=white)
 
 ## Table of Contents
@@ -9,7 +9,6 @@ Download [_here_](https://play.google.com/store/apps/details?id=com.sachindapkar
 * [Technologies Used](#technologies-used)
 * [Features](#features)
 * [Screenshots](#screenshots)
-* [Setup](#setup)
 * [Usage](#usage)
 * [Project Status](#project-status)
 * [Contact](#contact)
@@ -17,57 +16,41 @@ Download [_here_](https://play.google.com/store/apps/details?id=com.sachindapkar
 
 
 ## General Information
-- Confess helps reduce the burden your heart and mind are carrying. Because you are anonymous, you can confess anything without worrying about other people's thoughts. Only that confession will be displayed when you confess, and your identity will remain hidden.
-- I wanted to build a full stack application, that's why decided to build this.
+- Welcome to Snake Bit, the ultimate snake game that will take you on a nostalgic journey! With three different modes to choose from, Overflow, Underflow, and Red Bit, you can slither your way to high scores and endless fun.
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
 ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
 ![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white)
+![Provider](https://img.shields.io/badge/Provider-212121?style=for-the-badge&logo=Provider&logoColor=white)
+![Hive](https://img.shields.io/badge/Hive-0AC7EF?style=for-the-badge&logo=Hive&logoColor=white)
+![Google AdMob](https://img.shields.io/badge/GoogleAdMob-FF0000?style=for-the-badge&logo=GoogleAdMob&logoColor=white)
 
 
 ## Features
 List the ready features here:
-* Sign In with an Email or Google Account to access the application.
-* Have you forgotten the password you used to register via Email? Not to worry, forgot the password is here to help! Enter your email address, followed by the new password.
-* Visit the Instructions page if you are unsure of how to use the application. There are some colorful titles awaiting you.
-* Post your confession on the Add Page. No character limits exist for confession. Additionally, you can choose the color of the confession container.
-* On the My Confessions page, you can view all of your confessions.
-* Browse the confessions of every user on the Explore page. You will only be able to view the confession, not the identity of the individual who made it.
-* Want some inspiration? Visit the Quote page. Every time you visit the Quote page, you will be able to read fresh wisdom.
-* Check your email address on the Profile page. There is no one else who can see it. There you can also view the app's privacy policies.
-* Hold the My Confessions or Explore title, and pull it down to dive into the world of confessions.
-* If you find any bugs, or like the app, you can connect with me. The social media links are there on the Contact page with a beautiful animation.
+* In Overflow Mode, you can play without any boundary, but be careful not to eat yourself, or your snake will die. The game gets more challenging as your snake grows longer, and you'll have to use your skills to navigate through the maze-like screen without crashing into yourself.
+* In Underflow Mode, you won't be able to cross the boundaries, so you'll have to be extra careful not to touch the walls. The challenge increases as you progress, and you'll have to use your reflexes and quick thinking to avoid crashing into the walls or eating yourself.
+* In Red Bit Mode, you'll be able to play without any boundary, but there's a catch - in addition to dying on eating yourself, your snake will also die on eating the red bit. So, you'll have to be extra careful and avoid the red bits if you want to keep playing and get a high score.
+* You can check your high score in each of the three modes and challenge yourself to beat your own record. And if your snake dies, don't worry, you can revive it with the same score by spending the bits you've collected or watching an ad.
+* If you don't like the background music, then you can turn it off in the Settings page. 
 
 
 ## Screenshots
-<a href="https://ibb.co/bPJyznJ"><img src="https://i.ibb.co/G0T1cjT/Screenshot-2022-10-10-21-07-08-90-9a05aa8587bf28bb8a5ab4a591819f76-1.jpg" alt="Screenshot-2022-10-10-21-07-08-90-9a05aa8587bf28bb8a5ab4a591819f76-1" border="0" width=250 height=550></a>
-<a href="https://ibb.co/8jZ5rRm"><img src="https://i.ibb.co/sFYwKDg/Screenshot-2022-10-10-21-09-41-03-9a05aa8587bf28bb8a5ab4a591819f76-1.jpg" alt="Screenshot-2022-10-10-21-09-41-03-9a05aa8587bf28bb8a5ab4a591819f76-1" border="0" width=250 height=550></a>
-<a href="https://ibb.co/3mVdXSB"><img src="https://i.ibb.co/QvhQBYr/Screenshot-2022-10-10-21-09-46-80-9a05aa8587bf28bb8a5ab4a591819f76-1.jpg" alt="Screenshot-2022-10-10-21-09-46-80-9a05aa8587bf28bb8a5ab4a591819f76-1" border="0" width=250 height=550></a>
-<a href="https://ibb.co/kMzB4Pz"><img src="https://i.ibb.co/4JCt80C/Screenshot-2022-10-10-21-09-54-91-9a05aa8587bf28bb8a5ab4a591819f76-1.jpg" alt="Screenshot-2022-10-10-21-09-54-91-9a05aa8587bf28bb8a5ab4a591819f76-1" border="0" width=250 height=550></a>
-<a href="https://ibb.co/5xwtgLK"><img src="https://i.ibb.co/JFg0wH3/Screenshot-2022-10-10-21-10-01-86-9a05aa8587bf28bb8a5ab4a591819f76-1.jpg" alt="Screenshot-2022-10-10-21-10-01-86-9a05aa8587bf28bb8a5ab4a591819f76-1" border="0" width=250 height=550></a>
+<a href="https://ibb.co/DRKzDV7"><img src="https://i.ibb.co/TghYBvH/snake-bit-screenshot-1.png" alt="snake-bit-screenshot-1" border="0" width=250 height=550></a>
+<a href="https://ibb.co/SPrC4j7"><img src="https://i.ibb.co/56FHg0x/snake-bit-screenshot-2.png" alt="snake-bit-screenshot-2" border="0" width=250 height=550></a>
+<a href="https://ibb.co/hDFJ93g"><img src="https://i.ibb.co/wMhFg5d/snake-bit-screenshot-3.png" alt="snake-bit-screenshot-3" border="0" width=250 height=550></a>
+<a href="https://ibb.co/8dpLhR6"><img src="https://i.ibb.co/4YGnQDP/snake-bit-screenshot-4.png" alt="snake-bit-screenshot-4" border="0" width=250 height=550></a>
+<a href="https://ibb.co/ZL0Zv4t"><img src="https://i.ibb.co/FxFPcZN/snake-bit-screenshot-5.png" alt="snake-bit-screenshot-5" border="0" width=250 height=550></a>
 <!-- If you have screenshots you'd like to share, include them here. -->
 
-
-## Setup
-```
-$ Clone the project.
-$ Open it on Android Studio, or Visual Studio Code or any other IDE that supports the technologies used.
-$ Run the following command on the terminal:- "flutter pub get".
-$ Select the device where you want to run this project.
-$ Run the project.
-```
 
 
 ## Usage
 - Run the app. 
-- Login with Google or Sign up with email
-- Confess by navigating to Add Confession Page
-- Check your confessions on My Confessions Page 
-- Check others confessions on Explore Page
-- Read Quotes on Quote Page
+- Play any of the three given modes
+- You can also check your high scores
 
 
 ## Project Status
